@@ -3,9 +3,9 @@
 #include <DHT.h>
 #include <ArduinoJson.h>
 
-const char* ssid = "Kenzo cell routher ";
-const char* password = "empatkkkk";
-String iotdb_server_ip = "192.168.100.201";
+const char* ssid = "";
+const char* password = "";
+String iotdb_server_ip = "";
 
 #define DHTPIN 4
 #define DHTTYPE DHT22
